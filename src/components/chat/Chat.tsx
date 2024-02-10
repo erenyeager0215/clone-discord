@@ -7,7 +7,7 @@ import CardGiftcardRoundedIcon from "@mui/icons-material/CardGiftcardRounded";
 import GifRoundedIcon from "@mui/icons-material/GifRounded";
 import SentimentSatisfiedAltRoundedIcon from "@mui/icons-material/SentimentSatisfiedAltRounded";
 
-function Chat() {
+const Chat = ()=> {
   return (
     <div className="chat">
       {/* chatHeader */}

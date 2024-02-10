@@ -2,7 +2,7 @@ import React from "react";
 import "./ChatMessage.scss";
 import { Avatar } from "@mui/material";
 
-function ChatMessage() {
+const ChatMessage = () => {
   return (
     <div className="message">
       <Avatar />
@@ -15,6 +15,6 @@ function ChatMessage() {
       </div>
     </div>
   );
-}
+};
 
 export default ChatMessage;
