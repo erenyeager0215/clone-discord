@@ -1,8 +1,8 @@
 .sidebar {
   display: flex;
-  flex: 0.35;
+  flex: 0.3;
   height: 100vh;
-  background-color: #393943; //TODO:HOME適用時に修正
+  // background-color: #393943; //TODO:HOME適用時に修正
 
   .sidebarLeft {
     display: flex;
@@ -31,6 +31,7 @@
     background-color: #303136;
     width: 300px;
     position: relative;
+    flex-grow: 1;
     .sidebarTop {
       color: #fff;
       display: flex;
