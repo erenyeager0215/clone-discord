@@ -3,9 +3,11 @@
   flex-direction: column;
   background-color: #393943; //TODO:HOME適用時に修正
   flex-grow: 1;
+  height: 100vh;
 
   .chatMessage {
-    flex-grow: 1;
+    height: 100vh;
+    overflow-y: scroll;
   }
 
   .chatInput {
